@@ -1,0 +1,25 @@
+<template name='submenu'>
+	<div class="container-fluid" id="body">
+
+  		<div id="head" class="row">
+  		{{#each head}}
+    		{{>header}}
+    	{{/each}}
+    	</div>
+    	<div class="row" id="menu">
+    	{{#each items}}
+    	<div class="col-xs-3 menu-img">
+		<a href="{{href}}">
+			<img src="{{src}}" class="img-responsive img-circle" alt="Responsive image">
+		</a>
+	</div>
+    	{{/each}}
+    	</div>
+    	<div id="foot" class="row">
+    	{{#each foot}}
+    		{{>header}}
+    	{{/each}}
+  		</div>
+
+  		</div>
+</template>

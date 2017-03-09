@@ -1,0 +1,30 @@
+<template name="fav">
+	<div id="head" class="row">
+  		{{#each head}}
+    		{{>header}}
+    	{{/each}}
+    	</div>
+	{{#each items}}
+	<div class="row">
+	<div class="col-xs-2 star">
+	<button type="button" class="btn btn-default btn-lg" id="star">
+		<span class="glyphicon glyphicon-star"></span>
+	</button>
+	</div>
+	<div class="col-xs-8 content">
+		<h3>{{text}}</h3>
+	</div>
+	<div class="col-xs-2 speak">
+	<button type="button" class="btn btn-default btn-lg" id="speak">
+		<span class="glyphicon glyphicon-volume-up"></span>
+	</button>	
+	</div>
+	</div>
+	{{/each}}
+
+	<div id="foot" class="row">
+    	{{#each foot}}
+    		{{>header}}
+    	{{/each}}
+  		</div>
+</template>

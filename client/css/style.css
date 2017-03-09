@@ -1,0 +1,44 @@
+#head{
+	top: 0;
+	max-height: 10vh;
+	min-height: 10vh;
+	background-color: #FFAE3D;
+	color: #FFAE3D;
+}
+
+#foot{
+	vertical-align: bottom;
+	min-height: 10vh;
+	max-height: 10vh;
+	background-color: #FFAE3D;
+}
+
+.star{
+	background-color: #FFAE3D;
+}
+
+.content{
+	background-color: #F5ECDB;
+}
+
+.speak{
+	background-color: #FFAE3D;
+}
+
+.menu-img{
+	max-height:80%;
+}
+
+.image{
+	height: 8vh;
+	padding-top: 1.5vh;
+}
+
+#body{
+	min-height: 100vh;
+}
+
+#menu{
+	min-height: 80vh;
+	background-color: #F5ECDB;
+}
